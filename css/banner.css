@@ -1,0 +1,81 @@
+#principal {
+    margin-top: 100px;
+    position: relative;
+    margin-bottom: 0;
+}
+
+#excelencia img{
+    width: 70%;
+    max-width: 700px;
+    margin-right: 15%
+}
+
+#principal .contenedor {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    width: auto;
+    text-align: right;
+    box-sizing: border-box;
+    padding-right: 20px;
+}
+
+#principal .contenedor h2 {
+    font-size: 30px;
+    color: #183152;
+}
+
+#principal .contenedor h3 {
+    font-size: 20px;
+    text-align: right;
+    color: #183152;
+    transform: translateY(-15px);
+    padding-top: 5px;
+}
+
+#principal .contenedor h4 {
+    font-size: 12px;
+}
+
+#principal .contenedor h6 {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #1E4F6A;
+}
+
+@media (min-width:550px) {
+    #principal .contenedor h2 {
+       font-size: 50px; 
+    } 
+    
+    #principal .contenedor h3 {
+        font-size: 35px
+    }
+    
+    #principal .contenedor h4 {
+        font-size: 23px
+    }
+    
+    #principal .contenedor h6 {
+        font-size: 20px
+    }
+}   
+
+@media (min-width:800px) {
+    #principal .contenedor h2 {
+       font-size: 90px;
+    }
+    
+    #principal .contenedor h3 {
+       font-size: 60px;
+    }
+    
+    #principal .contenedor h4 {
+       font-size: 35px;
+    }
+    
+     #principal .contenedor h6 {
+       font-size: 25px;
+}
+    
+ 

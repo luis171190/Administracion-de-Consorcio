@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+}
+
+#contenido{
+   
+    height: 1000px;
+    width: 75%;
+    margin: 150px auto;
+}
+
+.form-confirmacion{
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+    min-width: 300px;
+    border-radius: 7px;
+    box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cabecera{
+border-bottom: solid 1px black;
+    text-align: center;
+    padding:20px;
+    font-weight: 100;
+    font-size: 30px;
+    background-color: #31B28E;
+    color: white;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom: 5px solid #183152; 
+    
+}
+.input-obra{
+    padding: 10px;
+    margin-left: 5px;
+    border-radius: 3px;
+    border: 1px solid darkgray;
+    max-width: 500px;
+    width: 79%;        
+}
+
+.btn-confirmar{
+    background: #31B28E;
+    color: #fff;
+    margin: 10px auto;
+    padding: 13px 40px;
+    cursor: pointer;
+    font-size: 18px;
+    
+}
+
+.btn-confirmar:hover {
+    background: #24c79a;
+}
+
+.btn-confirmar:active{
+    transform: scale(1.05);
+}
+
+.btn-confirmar {
+    height: 60px;
+    border-style: none;
+    border-radius: 4px;
+    width: 100%;
+    
+}
+
+.contenedor-inputs{
+    line-height: ;
+    padding: 30px;
+    font-size: 17px;
+    margin-top: -10px;
+    font-size: 14px;
+    background-color: #fff;
+}
+
+.datos{
+
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid darkgray;
+/*    max-width: 500px;*/
+    margin-bottom: 8px;
+    height: 40px;
+    width: 100%;
+}
+
+.contenedor-inputs label{
+    color: #183152;
+    line-height: 2.5;
+}
+.link-form{
+     width: 100%;
+    margin: 7px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.contenedor-inputs input {
+    
+}
+
+#alerta {
+    font-size: 12px
+}
+
+main {
+   height: 100%;
+   padding-top: 1px;
+   background-color: #ecf0f1;     
+}

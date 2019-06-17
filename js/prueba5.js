@@ -1,0 +1,5 @@
+function enviarVar(){
+    
+    
+    alert("hola");
+}

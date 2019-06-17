@@ -1,0 +1,191 @@
+#equipo .contenedor img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50;
+    border: 2px solid cadetblue;
+    background-color: #fff;
+}
+
+#equipo {
+    background-color: #E1E6FA;
+    margin-top: 100px;
+    height: 100%;
+    
+}
+
+#equipo .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#medicos {
+     max-width: 1400px;
+    
+}
+
+#equipo article {
+    text-align: center;
+    margin: 15px;
+    max-width: 300px; 
+    color: #000;
+}
+#titulo-equipo h1 {
+    font-size: 30px;
+}
+#titulo-equipo{
+   background-color: #fff;
+    width: 100%;
+    color: cadetblue;
+    font-size: 30px; 
+}
+
+#equipo h1 {
+    margin: 10px;
+}
+
+#equipo h4 {
+    font-size: 18px;
+    color:cadetblue;
+}
+
+#equipo h2 {
+    font-size: 20px;
+    color: #183152;
+    margin: 30px;
+}
+
+#equipo p {
+    font-size: 12px;
+}
+
+#equipo a {
+    text-decoration: none;
+    color: cadetblue;
+}
+
+#equipo a :hover {
+    color: #183152;
+}
+
+#buscar_profesionales {
+    height: auto;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: cadetblue;
+    display: none;
+}
+
+#buscar_profesionales div {
+    max-width: 1400px;
+    font-size: 30px;
+    color: #fff;
+    line-height: 50px;
+    margin-top: 30px;
+}
+
+#buscar_profesionales label {
+    margin: 10px;
+}
+
+#seleccion_busqueda select {
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    font-family: 'montserrat', sans-serif;
+}
+
+#seleccion_busqueda label {
+   font-size: 20px;
+    display: none;
+}
+
+#buscar_profesionales .input-lbl {
+   height: 40px;
+    border-radius: 10px;
+}
+
+#buscar_profesionales .icon-search {
+    color: #183152;
+    font-size: 20px;
+    
+}
+
+.btn-buscar {
+    border-radius: 15px;
+    width: 150px;
+    background-color: #183152;
+    color: #fff;
+    border: solid 2px;
+}
+
+.btn-buscar:hover {
+    cursor: pointer;
+}
+
+#asesores h1 {
+    font-size: 30px;
+    color: cadetblue;
+    text-align: center;
+}
+
+#asesores img {
+    width: 150px;
+    height: 150px;
+    border: 2px solid cadetblue;
+}
+
+#asesores h2 {
+    text-align: center;
+}
+
+#asesores {
+    margin-top: 30px;
+}
+
+#asesores div {
+    
+   display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px; 
+}
+
+@media (min-width:550px) {
+    #equipo .contenedor img {
+        width: 300px;
+        height: 300px;
+    }
+     #asesores img {
+        width: 300px;
+        height: 300px;
+    }
+    
+    #equipo h4 {
+        font-size: 25px;
+    }
+    
+    #equipo p {
+        font-size: 16px;
+    }
+    
+    #buscar_profesionales div {
+        width: 600px
+    }
+}
+
+@media(max-width:1024px) {
+    
+    #equipo {
+        margin-top: 70px;
+    }
+    
+}

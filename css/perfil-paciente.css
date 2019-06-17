@@ -1,0 +1,225 @@
+*{
+    font-family: 'Montserrat', sans-serif; 
+    margin: 0;
+}
+
+/*
+form input {
+    max-width: 500px;
+    height: 40px;
+    border-radius: 8px;
+    border: 1.5px solid darkgray;
+    
+}
+*/
+
+/*.btn-enviar {
+    background: cadetblue;
+    color: #fff;
+    padding: 10px 40px;
+    cursor: pointer;
+    font-size: 20px;
+    border-style: groove;
+}*/
+
+
+/*#contenedor_registro {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contenedor-inputs {
+   max-width: 500px
+}*/
+
+
+.panel {
+    min-height: 380px;
+    padding-bottom: 20px;
+    box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+#contenido input {
+   margin: 5px;
+     padding: 8px;
+    margin-left: 5px;
+    border-radius: 3px;
+    border: 1px solid darkgray;
+    max-width: 500px;
+    width: 100%;   
+}
+
+#contenedor-panel {
+    margin-top: 20px
+}
+
+#contenedor_imagen {
+    text-align: center
+}
+
+#imagen {
+    
+}
+
+
+.contenedor-inputs {
+    text-align: center
+}
+
+#contenido img {
+    width: 250px;
+    height: 250px;
+   /* margin-bottom: 20px;
+    margin-right: 50px;
+    margin-left: 30px; */
+    border-radius: 3%;
+}
+
+@media(max-width:768px) {
+    #contenido img {
+        width: 150px;
+        height: 150px;
+        margin-right: 0;
+    }
+    
+    #contenido {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    
+   /* form input {
+        height: 30px;
+    }
+    
+    .btn-enviar {
+        height: 40px;
+    }
+    
+    #contenedor_registro {
+        justify-content: center;
+    }
+    
+    #contenido ul {
+        line-height: 20px
+    }*/
+}
+
+
+
+
+/*-----------------------------------------------------------*/
+
+.principal {
+    display: flex;
+    background-color: #ecf0f1;
+}
+
+
+#contenido {
+    width: 100%;
+    min-height: 800px;
+    height: 100%;
+    margin-left: 220px;
+    margin-top: 100px;
+    flex-wrap: wrap;
+    position: relative;
+    padding-right: 10px;
+}
+
+#titulo {
+    width: 100%;
+    padding-top: 11px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid cadetblue;
+    color: cadetblue;
+    margin-top: 0;
+}
+
+#titulo h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#contenido span {
+    color: #609d9f;
+}
+
+#contenido ul  {
+    list-style: none
+}
+
+.datos-personales ul li img {
+    width: 15px;
+    height: 15px;
+    border: none;
+    margin: 0;
+    margin-right: 10px;
+    
+}
+
+.datos-personales img {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 20px;
+    border: solid 2px cadetblue
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#contenedor_imagen img {
+    border: solid 1px cadetblue;
+}
+
+#contenedor_imagen {
+    
+}
+
+.contenedor-datos, #datos-adic{
+   line-height: 0;
+    
+}
+
+#titulo {
+    padding-top: 0;
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+.panel-heading h3 {
+    color: cadetblue;
+    font-weight: bolder;
+    margin: 5px;
+}
+

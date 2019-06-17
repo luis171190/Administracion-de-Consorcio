@@ -1,0 +1,114 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+*{
+margin: 0;
+box-sizing: border-box; 
+padding: 0;    
+}
+
+body{
+background-color:#fff;
+font-family:  'Montserrat', sans-serif;
+}
+#contenedor_nosotros
+{
+padding-top: 20px;    
+background-color: white;
+width: 100%;
+min-height: 100%;
+justify-content: center;
+margin-top: 90px;
+
+}
+
+#mision_vision h1{
+border-bottom:3px solid cadetblue;  
+color: cadetblue;
+    margin-bottom: 15px
+}
+#titulo_mision, #titulo_vision{
+width: 40%;
+margin-right: 50px;
+line-height: 1.5;
+min-width: 250px;
+margin-top: 40px;
+}
+#mision_vision{
+    margin-top: 30px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin-bottom: 100px;
+}
+#titulo_quienes{
+line-height: 2;
+width: 100%;
+background: #E1E6FA;
+padding-left: 85px;
+padding-right: 120px;
+
+padding-bottom: 180px;
+padding-top: 30px;
+
+    
+}
+#titulo_quienes h1{
+padding-top: 20px;
+color:cadetblue;
+margin-bottom: 15px;
+text-align: center;
+}
+#eequipo{
+    width: 100%;
+   margin-top: 40px;
+    background: white;
+    margin-bottom: 20px;
+    display: none;
+  
+}
+#eequipo article{
+    
+    width: 300px;
+    border: solid 3px cadetblue;
+    margin: 30px;
+    
+    
+}
+#eequipo img{
+    width: 100%;
+}
+#contenedor_equipo{
+ background: white;
+ display: flex;
+flex-wrap: wrap;
+ 
+justify-content: center;
+}
+#titulo_nequipo h1{
+font-size: 25px;
+color: cadetblue;
+margin-bottom: 15px;
+text-align: center;
+padding: 20px;
+  
+}
+#eequipo h4{
+    
+    font-size: 25px;
+    color: cadetblue;
+    margin-bottom: 10px;
+    text-align: center;
+   
+}
+#eequipo p{
+    text-align: center;
+    padding: 10px;
+    border-top: solid 3px cadetblue;
+    font-size: 17px;
+}
+
+@media(max-width:1024px) {
+    
+    #contenedor_nosotros {
+        margin-top: 70px;
+    }
+}

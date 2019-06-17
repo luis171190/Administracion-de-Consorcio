@@ -1,0 +1,269 @@
+#menu-bar {
+    display: none;
+}
+
+header label{
+    float: right;
+    font-size: 25px;
+    padding: 6px;
+    cursor: pointer;
+    margin: 15px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 200;
+    width: 100%;
+}
+
+.etiqueta-ingresar {
+    position: relative;  
+    left: 93%;
+    top: -12px;
+    color: #fff;
+    font-size: 12px;
+    padding: 4px;
+    padding-top: 5px;
+    border: solid 2px;
+    text-decoration: none;
+    border-radius: 10px;
+    border-top: none;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+.etiqueta-ingresar img {
+    width: 12px;
+    height: 12px;
+    margin-left: 5px;
+}
+
+#item-ingresar {
+    display: none;
+}
+
+#item-ingresar img {
+    width: 18px;
+    height: 18px;
+    margin-left: 5px
+}
+
+.menu ul {
+    top: 100px;
+    left: 0;
+    position: absolute;
+    list-style: none;
+    padding: 0px;
+    width: 100%;
+    height: 100vh;
+    background: rgba(24, 49, 82, 0.9);
+    display: block;
+    transition: all 0.5s;
+    transform: translateX(-100%);
+    height: auto;
+}
+
+
+header .contenedor{
+    display: table;
+    padding: 4px;
+}
+
+
+.menu a{
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.menu a:hover {
+   background: rgba(255, 255, 255, 0.3);
+}
+
+#menu-bar:checked ~ .menu ul {
+    transform: translateX(0%);
+}
+
+.menu ul ul{
+    display: none;
+   /* position: relative;
+    width: auto;
+    height: auto;*/
+    
+}
+
+
+#buscar_p {
+    width: 300px;
+    height: 30px;
+    left: 300px;
+    border-radius: 20px;
+    margin-right: 0px;
+    margin-top: 3px;
+    margin-left: 10px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border: solid  2px #fff;
+}
+
+.menu ul li:first-child {
+    position: relative
+}
+
+.menu .icon-search {
+    right: 30px;
+    top: 1px;
+}
+
+#buscar_p:focus {
+    background-color: #fff;
+}
+
+@media (min-width:1025px) {
+    
+    .menu a:hover {
+    background: #183152;
+   
+    }
+    
+    .menu ul {
+        position: static;
+        width: auto;
+        height: auto;
+        transform: translateX(0%);
+        float: right;
+        display: flex;
+        margin-top: 20px;
+    }
+    
+    .menu a {
+        padding: 10px;
+        border-bottom: none;
+    }
+    
+    header label{
+        display: none;
+    }
+    
+    .menu a {
+   display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  overflow: hidden;
+}
+.menu a:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  background: #fff;
+  height: 3px;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.menu a:hover:before, .menu a:focus:before, .menu a:active:before {
+  left: 0;
+  right: 0;  
+} 
+/*
+    .menu ul li:hover ul {
+    display: non;  
+    }
+*/
+    
+ 
+    #dropdownMenu2 {
+    position: absolute;
+    width: 75%;
+    top: 100px;
+    margin-top: -60px;
+    padding: 20px;
+    padding-bottom: 10px;    
+    padding-top: 35px;    
+    right: 0;
+    left: auto;    
+    background-color: #183152;
+    height: auto; 
+    }  
+    
+    header .contenedor {
+        display: block;
+    }
+    
+    .menu ul {
+        height: 40px;
+    }
+    
+    .submenu select {
+        margin-left: 0px;
+        font-family: "montserrat";
+        width: 73%;
+        float: right;
+        height: 30px;
+        border-radius: 7px;
+    }
+    
+    
+    .submenu input {
+        margin-top: 10px;
+        height: 30px;
+        border-radius: 7px;
+        
+    }
+    
+    #nombre-buscador {
+        margin-top: 30px;
+    }
+    
+    #buscar-menu {
+    background: cadetblue;
+    color:white;
+    font-family: 'Montserrat', sans-serif;  
+    border-radius: 15px;
+    border: solid 2px #fff;
+    height: auto;    
+    }
+    
+    #buscar-menu:hover {
+        cursor: pointer;
+        background-color: rgba(95, 158, 160, 0.5);
+    }
+}
+
+@media (max-width:1024px) {
+   
+    
+/*
+    .menu ul li:last-child {
+        display: none;
+    }
+*/
+ 
+    #barramenu .icon-search {
+        margin-right: 0;
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    .etiqueta-ingresar {
+        display: none;
+    }
+    
+    #item-ingresar {
+    display: block;
+    }
+}

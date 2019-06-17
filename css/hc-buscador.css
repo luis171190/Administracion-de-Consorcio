@@ -1,0 +1,120 @@
+#resultados{
+   
+max-height: 800px; 
+ overflow: auto;
+height: 100%;
+overflow-x: hidden;
+   
+}
+
+*{
+    font-family: 'montserrat', sans-serif; 
+    margin: 0;
+}
+
+
+.principal {
+    display: flex;
+    background-color: #ecf0f1;
+}
+
+
+#contenido {
+    width: 100%;
+    min-height: 800px;
+    height: 100%;
+    margin-left: 220px;
+    margin-top: 100px;
+    flex-wrap: wrap;
+    position: relative;
+    padding-right: 10px;
+}
+
+#titulo {
+    width: 100%;
+    padding-top: 11px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid cadetblue;
+    color: cadetblue;
+    margin-top: 0;
+}
+
+#titulo h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#contenido span {
+    color: #609d9f;
+}
+
+#contenido ul  {
+    list-style: none
+}
+
+.datos-personales ul li img {
+    width: 15px;
+    height: 15px;
+    border: none;
+    margin: 0;
+    margin-right: 10px;
+    
+}
+
+.datos-personales img {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 20px;
+    border: solid 2px cadetblue
+}
+
+
+
+
+@media(max-width:768px) {
+    
+    
+    #contenido {
+/*        margin-top: 300px;*/
+        margin-left: 20px;
+        margin-right: 20px;
+        
+    }
+    
+    header .menu ul {
+        margin-top: 7px
+    }
+    
+    #submenu-usuario {
+        margin-top: 0;
+    }
+    
+    header .menu ul ul li {
+        margin-top: 0px;
+        display: block;
+    }
+    
+    #dropdownMenu1 {
+        display: none
+    }
+    
+    #dropdownMenu2 {
+        display: none
+    }
+    
+    #item-buscar {
+        display: none
+    }
+}
+
+@media(max-width:650px) {
+
+   
+}
+
+#contenido {
+    font-size: 12px
+}
+
+

@@ -1,0 +1,77 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+#buscador-nuevo{
+   
+    
+    
+}
+.container{
+    min-width: 300px;
+    width: 60%;
+    min-height: 300px;
+    margin: auto;
+    padding: 20px;
+    background:rgba(255,255,255,0.6);
+    border: solid 1px #CCC;
+    border-radius: 30px;
+    
+}
+.center{
+    text-align: center;
+}
+.form input{
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#resultados{
+ min-height: 100px;   
+max-height: 400px;
+ overflow: auto;
+height: 100%;
+overflow-x: hidden;
+   
+}
+
+.art a{
+    text-decoration: none;
+    color:#183152;
+  
+}
+.art{
+    
+    margin-bottom: 15px;
+  
+    padding: 5px;
+}
+
+.titulo{
+    font-size: 22px;
+    text-transform: uppercase;
+     
+    font-weight: bold;
+}
+.contenido{
+    font-size: 16px;
+    color: black;
+   
+}
+.contenido a{
+    font-size: 16px;
+    color: #666;
+}
+.titulo_busqueda{
+width: 100%;
+ color: #183152;
+ font-size: 25px;
+border-bottom: solid 3px cadetblue;
+}
+.formato-resultados{
+  color:  #183152;
+padding: 10px;
+    
+}
+.resultados_busq{
+    margin-bottom: 15px;
+}

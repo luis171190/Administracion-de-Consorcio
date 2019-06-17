@@ -1,0 +1,61 @@
+*{
+    font-family: 'Montserrat', sans-serif; 
+    margin: 0;
+}
+
+form input {
+    max-width: 500px;
+    height: 40px;
+    border-radius: 8px;
+    border: 1.5px solid darkgray;
+}
+
+.btn-enviar {
+    background: cadetblue;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    border-style: groove;
+}
+
+#contenedor_registro {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contenedor-inputs {
+   max-width: 500px;
+}
+
+
+#contenido img {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+}
+
+
+@media(max-width:600px) {
+    #contenido img {
+        width: 150px;
+        height: 150px;
+        margin-right: 0;
+    }
+    
+    form input {
+        height: 30px;
+    }
+    
+    .btn-enviar {
+        height: 40px;
+    }
+    
+    #contenedor_registro {
+        justify-content: center;
+    }
+    
+    #contenido ul {
+        line-height: 20px
+    }
+}

@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+     font-family: 'Montserrat', sans-serif; 
+}
+
+body{
+       background-color:white;
+}
+#contenedor_login{
+    height: 100vh;
+    padding-top: 1px; 
+/*    background-color: #ecf0f1;*/
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/login.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-attachment: fixed;
+    background-position: center;
+}
+
+header {
+    box-shadow: 0 1px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.3);
+    display: none;
+}
+
+footer {
+    display: none;
+}
+
+#logeo{
+    padding-top: 30px;
+    margin: auto;
+    max-width: 400px;
+    min-width: 200px;
+   margin: 20px auto;
+/*    height: 350px;*/
+    padding-bottom: 30px;
+    border-radius: 5px;
+    text-align: center;
+    background: white;
+     box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.box-usuario{
+    margin: auto;
+    height: 35px;
+   width: 80%;
+    margin-top: 10px;
+    padding-left: 8px
+}
+
+.box-contra{
+height: 35px;
+width: 80%;
+margin-top: 10px;
+ padding-left: 8px   
+}
+
+.btn-enviar{
+    width: 80%;
+    background-color: #31B28E;
+    color: #fff;
+    margin: auto;
+    margin-top: 0px;
+    height: 40px;
+    border-radius: 4px;
+    border-style: none;
+    font-size: 18px;
+}
+
+.btn-enviar:hover {
+    background: #24c79a;
+    cursor: pointer;
+} 
+
+.texto-label{
+ color: #183152;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+
+.btn-enviar:active{
+    transform: scale(1.05);
+}
+.crear-cuenta{
+   font-size: 13px;
+   color:#183152;
+}
+
+.crear-cuenta:hover {
+   color: #194c90
+}
+
+#ingreso-sistema{
+    margin-top: 5%;
+    text-align: center;
+    color: #fff;
+    font-size: 35px;
+}
+
+#ingreso-sistema img {
+    width: 150px
+}
+
+#logeo img {
+    width: 100px
+}
+

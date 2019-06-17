@@ -1,0 +1,17 @@
+*{
+    
+}
+
+.formulario{
+    width: 50%;
+    padding: 20px;
+    border: 2px solid  cadetblue;
+    margin: auto;
+    min-width: 200px;
+}
+.fecha-inp{
+    margin-top: 10px;
+}
+.btnconsulta{
+    
+}

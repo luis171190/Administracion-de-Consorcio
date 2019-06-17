@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+}
+
+#contenido{
+   
+    height: 850px;
+    width: 80%;
+    margin: 150px auto;
+}
+.form-confirmacion{
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    min-width: 300px;
+    
+}
+.cabecera{
+border-bottom: solid 1px black;
+    text-align: center;
+    padding:20px;
+    font-weight: 100;
+    font-size: 30px;
+    background-color: cadetblue;
+    color: white;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom: 5px solid #183152; 
+    
+}
+.input-obra{
+    width: 50;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid darkgray;
+    max-width: 500px;
+    margin-left: 10px;
+         
+}
+.btn-confirmar{
+    background: cadetblue;
+    color: #fff;
+    margin: 10px auto;
+    padding: 13px 40px;
+    cursor: pointer;
+    font-size: 18px;
+    
+}
+.btn-confirmar:active{
+    transform: scale(1.05);
+}
+.contenedor-inputs{
+    line-height: 2.5;
+    padding: 20px;
+    border: solid 1px black;
+    font-size: 17px
+    
+}
+label{
+    color: #183152;
+}
+.link-form{
+     width: 100%;
+    margin: 7px;
+    font-size: 14px;
+    text-align: center;
+}

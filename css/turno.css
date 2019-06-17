@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+#contenedor_s{
+    height: 850px;
+}
+#divs{
+    width: 75%;
+    margin: 130px auto;
+    height: 500px;
+    
+}
+.dias{
+    list-style: none;
+    height: 150px;
+    border: solid 1px black;
+    display: flex;
+    flex-wrap: wrap;
+}
+.horarios{
+   list-style: none; 
+}
+.horarios-li{
+    width: 60px;
+  display: inline-block;
+    margin-top: 10px;
+    background-color: #183152;
+    padding: 5px;
+    
+    
+       
+}
+.horarios-li a{
+
+    padding: 3px;
+    text-decoration: none;
+    color: white;
+   
+}
+.ancho-dias{
+    width: 130px;
+    text-align: center;
+    border-right: solid 1px cadetblue;
+    display: block;
+}

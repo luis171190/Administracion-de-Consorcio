@@ -1,0 +1,502 @@
+#consulta {
+    padding-top: 50px;
+    padding-bottom: 50px;
+/*    background: #E1E6FA;*/
+}
+
+#consulta form {
+    width: 500px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 0;
+    padding-top: 0px;
+    box-sizing: border-box;
+    border-radius: 7px;
+    margin-left: 0px;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+#consulta input, textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+/*    border-radius: 4px;*/
+    border-style: none;
+    
+}
+
+
+#consulta textarea {
+    min-height: 150px;
+    max-height: 300px;
+    max-width: 100%; 
+}
+
+
+#consulta #boton {
+    background: none;
+    color: #fff;
+    padding: 12px;
+    width: 100%;
+    font-family: 'Roboto', sans-serif !important;
+    font-style: italic;
+    border-radius: 0px;
+    border: 3px solid #fff !important;
+    margin-top: 15px;
+    border-style: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#consulta #boton:hover {
+    cursor: pointer;
+    background-color: #43A6D5;
+    color: #fff;
+    font-weight: bold;
+    border: 3px solid #fff !important;
+}
+
+#consulta h1 {
+    margin-bottom: 20px;
+    font-size: 50px;
+    width: 100%;
+    text-align: center;
+    color: cadetblue;
+    font-size: 40px;
+}
+
+#consulta form hr {
+    width: 130%;
+    border: 1.5px solid #fff;
+    margin-top: 0;
+}
+
+#consulta form label {
+    margin-bottom: 0;
+    font-family: 'Roboto', sans-serif;    
+}
+
+#consulta h3 {
+    text-align: center;
+    color: #183152;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+#consulta {
+  background: #62CDE5; /* For browsers that do not support gradients */
+  /* For Safari 5.1 to 6.0 */
+  background: -webkit-linear-gradient(#62CDE5, #43A6D5, #096996);
+  /* For Opera 11.1 to 12.0 */
+  background: -o-linear-gradient(#62CDE5, #43A6D5, #096996);
+  /* For Fx 3.6 to 15 */
+  background: -moz-linear-gradient(#62CDE5, #43A6D5, #096996);
+  /* Standard syntax */
+  
+}
+
+
+#titulos-consulta h1 {
+    color: #fff !important;
+    font-family: 'Roboto', sans-serif !important;
+     text-align: right !important;
+    font-size: 100px !important;
+    font-style: !important;
+    margin: ;
+    padding: 0 !important;
+    line-height: 0.7;
+    box-sizing:  !important;
+}
+
+#titulos-consulta #t1 {
+    font-size: 70px !important; 
+}
+
+#titulos-consulta #t2 {
+    font-size: 120px !important; 
+    font-stretch:  !important;
+    font-weight: bold;
+}
+
+#titulos-consulta #t3 {
+    font-size: 100px !important; 
+}
+
+form {
+  margin: 0 !important  
+    
+}
+
+form #t4 {
+    color: #fff;
+    font-style: italic;
+    font-size: 22px;
+/*    border-bottom: solid;*/
+     width: 100%;
+    margin-bottom: 0;
+}
+
+
+#titulos-consulta {
+    height: 360px;
+    margin-top: 10px;
+    width: 
+}
+
+#consulta .row {
+    width: 90%;
+    margin: auto
+}
+
+
+
+
+
+
+
+
+
+
+/* estilos rediseño */
+
+
+
+footer {
+    margin-bottom: 0;
+}
+
+#img-empresas {
+    width: 90%;
+    margin: auto
+}
+
+
+.solicitar:hover  {
+    background-color: #43A6D5;
+}
+
+.solicitar {
+    background-color: #096996;
+}
+
+
+@media (max-width:480px) {
+    #consulta form {
+        width: 100%;
+    }
+}
+
+
+@media(max-width:1300px) {
+    #titulos-consulta #t1 {
+        font-size: 70px !important; 
+    }
+
+    #titulos-consulta #t2 {
+        font-size: 120px !important; 
+        font-stretch:  !important;
+        font-weight: bold;
+    }
+
+    #titulos-consulta #t3 {
+        font-size: 100px !important; 
+    }
+    
+     #consulta form hr {
+        width: 100%
+    }
+}
+
+@media(max-width:1000px) {
+    #titulos-consulta #t1 {
+        font-size: 50px !important; 
+    }
+
+    #titulos-consulta #t2 {
+        font-size: 120px !important; 
+        font-stretch:  !important;
+        font-weight: bold;
+    }
+
+    #titulos-consulta #t3 {
+        font-size: 90px !important; 
+    }
+    #titulos-consulta h1 {
+        text-align: center !important
+    }
+    
+    #consulta form {
+        margin:auto !important;
+    }
+    
+    #consulta-form {
+        margin-top: 
+    }
+    
+    #buscardor2 form, #buscardor2 #resultados{
+        width: 80% !important
+    }
+    
+}
+
+@media(max-width:990px) {
+    
+    #consulta-form {
+        margin-top: -100px
+    }
+    
+    #carousel-example-generic{
+        width: 100%;
+        margin: auto;  
+}
+    
+}
+
+
+@media(max-width:768px) {
+     #titulos-consulta #t1 {
+        font-size: 40px !important; 
+    }
+
+    #titulos-consulta #t2 {
+        font-size: 80px !important; 
+        font-stretch:  !important;
+        font-weight: bold;
+    }
+
+    #titulos-consulta #t3 {
+        font-size: 60px !important; 
+    }
+    
+     #consulta-form {
+        margin-top: -160px;
+    }
+    
+    #consulta-form form {
+        width: 100%
+    }
+    
+    #buscardor2 a h1 {
+        font-size: 25px;
+    }
+    
+     #buscardor2 form, #buscardor2 #resultados{
+        width: 90% !important
+    }
+    
+    #unete h1{
+        font-size: 25px;
+    }
+    
+    #empresas h1, #empresas h2{
+        font-size: 25px 
+    }
+    
+    #empresas img {
+       width: 60px !important;
+       height: 24px !important
+    }
+    
+    #img-empresas img{
+        width: 150px !important;
+        margin-top: 10px
+    }
+    
+}
+
+
+
+/*------------------------- Header blanco --------------------------------*/
+
+/*header {
+    background-color: #fff
+}
+
+header ul li a {
+    color: black !important;
+    background-color: #fff;
+}
+
+header .contenedor {
+    background-color: #fff !important
+}
+
+#dropdownMenu1 {
+    background-color: #43A6D5 !important;
+    font-family: 'Roboto', sans-serif !important; 
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#dropdownMenu1:hover {
+    background-color: #62CDE5 !important
+}
+
+header .menu ul {
+    background-color: #fff
+}
+
+header .menu ul li a{
+    font-family: 'Roboto', sans-serif !important; 
+    font-weight: bold;
+    font-size: 14px;
+    color:  #43A6D5 !important
+}
+
+
+@media (min-width:1025px) {
+    
+    .menu a:hover {
+    background: #fff;
+   
+    }
+    
+    .menu ul {
+        position: static;
+        width: auto;
+        height: auto;
+        transform: translateX(0%);
+        float: right;
+        display: flex;
+        margin-top: 20px;
+    }
+    
+    .menu a {
+        padding: 10px;
+        border-bottom: none;
+    }
+    
+    header label{
+        display: none;
+    }
+    
+    .menu a {
+   display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  overflow: hidden;
+}
+.menu a:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  background: #43A6D5;
+  height: 3px;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.menu a:hover:before, .menu a:focus:before, .menu a:active:before {
+  left: 0;
+  right: 0;  
+} 
+    
+}*/
+
+
+/*------------------------------ Pie de pagina del index ------------------------------------*/
+
+#empresas h2{
+    margin-top: 0px;
+    margin-bottom: 30px;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif !important; 
+    font-style: italic;
+    background-color: #43A6D5;
+    color: #fff;
+    text-align: center;
+}
+
+#empresas h2 img {
+    width: 100px;
+    height: 40px;
+    margin-right: 5px;
+}
+
+#empresas h1 {
+    font-family: 'Roboto', sans-serif !important;
+    font-style: italic;
+    color: #43A6D5;
+    text-align: center;
+    border-bottom: solid 1.5px;
+    padding: 0 !important;
+}
+
+#empresas h1 label {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+ #img-empresas img {
+    width: 200px;
+    margin-left: 20px;
+    margin-right: 20px; 
+}
+
+#img-empresas {
+    text-align: center;
+    margin-bottom: 20px
+}
+
+
+
+
+
+footer .contenedor p {
+    color: #999999 !important;
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 15px;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 
+}
+ 
+footer .contenedor p label {
+    font-family: 'Roboto', sans-serif !important;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.contenedor .sociales a {
+    color: #999999 
+}
+
+.contenedor .sociales {
+    width: 100%;
+    margin-bottom: 10px 
+}
+
+footer {
+    background-color: black
+}
+
+.emme {
+    color: #999999 !important;
+    font-family: 'Roboto', sans-serif !important;
+    width: 100%;
+    text-align: center;
+    margin: 0 !important;
+    padding: 10px;
+    background-color: #999999;
+    color: #000 !important;
+    font-weight: bold;
+}

@@ -1,0 +1,72 @@
+body{
+    padding-top: 150px;
+}
+
+
+#contenido{
+   height: 900px;
+    min-width: 300px;
+    margin-top: -90px;
+    padding-top: 90px;
+    background-color: #ecf0f1;
+}
+
+#tabla{
+   
+    overflow: ;   
+}
+
+#tabla td{
+    height: 45px;
+    vertical-align: middle;
+    text-align: center;
+}
+thead{
+    background-color :cadetblue;
+}
+
+.ocupado{
+    color:red;
+}
+.disponible{
+ color: green;
+}
+#turnos-dia{
+    font-size: 20px;
+    color: cadetblue; 
+}
+
+#panel-disp {
+    min-width: 400px;
+    box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.panel-heading h4 {
+    color: cadetblue;
+}
+
+#panel-disp .panel-body{
+     max-height: 650px;
+    min-width: 400px;
+    overflow: auto;
+}
+
+#panel-disp tbody {
+   
+}
+
+#panel-disp th{
+   
+    font-size: 14px;
+    text-align: center;
+    background-color: #d9edf7;
+}
+
+#panel-disp td{
+    text-align: center;
+    font-size: 12px;
+}
+
+#btn-solicitar {
+    font-size: 11px
+}

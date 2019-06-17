@@ -1,0 +1,102 @@
+ main {
+    background-color: #E1E6FA;
+}
+
+#medico1 {
+    padding-top: 105px;
+    padding-bottom: 25px;
+    background-color: #fff;
+}
+
+#medico1 img {
+    width: 250px;
+    height: 250px;
+    border: 5px solid cadetblue;
+    background-color: #fff;
+    margin: 10px;
+}
+
+#medico1 article {
+    margin: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    margin-bottom: 0;
+   
+}
+
+iframe {
+    border: 2px;
+    border-style:solid;
+    border-color: cadetblue;
+    margin-top: 15px;
+    width: 500px; 
+    height: 350px;
+    margin: 15px;
+}
+
+#medico1 div {
+    margin-left: 25px;
+    padding-top: 10px;
+    color: #183152;
+}
+
+#medico1 h4 {
+    margin-bottom: 5px;
+    font-size: 2em;
+    color: cadetblue;
+    border-bottom: 5px solid cadetblue;
+    width: auto;
+}
+
+#medico1 h6 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: cadetblue;
+}
+
+#medico1 ul {
+    line-height: 1.5;
+    margin-left: 20px;
+}
+
+#mapa1 {
+    margin-top: 25px;
+    padding-bottom: 15px;
+    text-align: center;
+    max-width: 1200px ;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#mapa1 iframe {
+}
+
+#mapa1 h4 {
+    font-size: 2em;
+    color: cadetblue;
+    border-bottom: 5px solid cadetblue;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+footer {
+    width: 100%;
+}
+
+@media(max-width:600px) {
+    #mapa1{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media(max-width:350px) {
+    iframe{
+        width: 250px;
+        height: 300px;
+    }
+}   

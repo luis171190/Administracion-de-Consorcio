@@ -1,0 +1,13 @@
+#mensaje h1 {
+    font-size: 30px;
+    margin-top: 250px;
+    margin-bottom: 300px;
+    padding: 100px;
+    text-align: center;
+    background-color: #fff;
+    color: #183152;
+}
+
+body {
+    background-color: #E1E6FA;
+}

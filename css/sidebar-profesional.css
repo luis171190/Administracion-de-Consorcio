@@ -1,0 +1,136 @@
+.sidebar {
+    margin-top: 100px;
+    width: 250px;
+    height:auto; /* hacer un calcula del 100% menos el height del footer */
+    position: relative;
+    background: #2EA684;
+    color: #fff;
+    outline:  1px solid #31B28E;
+    overflow-y: auto;  
+}
+
+footer {
+position: relative;
+}
+
+.sidebar ul a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 10px;
+    
+}
+
+.sidebar li {
+    outline:  1px solid #31B28E;
+    transition: all 0.2s; 
+    font-size: 12px;  
+}
+
+.sidebar li span {
+    margin-right: 15px;
+    font-size: 20px;
+    color: #44F2C1;
+    margin-left: 15px;
+}
+
+.sidebar a:hover {
+    background: #168C8C
+}
+
+.sidebar li:hover {
+    border-left: 5px solid #fff
+}
+
+.sidebar img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: solid 2px #fff;
+    border-style: solid;
+    margin: 0px;
+}
+
+#usuario-sidebar {
+    height: 110px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#nombre-sidebar {
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 17px;
+} 
+
+.sidebar a {
+    text-decoration: none;
+    color: #fff;
+}
+
+@media(max-width:768px) {
+    
+    
+    .sidebar {
+        margin-top: 70px;
+        height: auto;
+        width: 100%;
+        display: none
+    }
+    
+    .sidebar li {
+        text-align: center;
+    }
+    
+    .sidebar h1 {
+        text-align: center;
+    }
+    
+    #contenido {
+/*        margin-top: 300px;*/
+        margin-left: 20px;
+        margin-right: 20px;
+        
+    }
+    
+    header .menu ul {
+        margin-top: 7px
+    }
+    
+    #submenu-usuario {
+        margin-top: 0;
+    }
+    
+    header .menu ul ul li {
+        margin-top: 0px;
+        display: block;
+    }
+    
+    #dropdownMenu1 {
+        display: none
+    }
+    
+    #dropdownMenu2 {
+        display: none
+    }
+    
+    #item-buscar {
+        display: none
+    }
+}
+
+@media(max-width:650px) {
+
+   
+}
+
+
+.sidebar a:hover {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 
+}
+
+#contenido {
+    margin-left: 20px !important;
+}

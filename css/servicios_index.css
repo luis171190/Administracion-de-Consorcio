@@ -1,0 +1,68 @@
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+*{
+margin: 0;
+box-sizing: border-box;  
+
+}
+
+body{
+    
+    font-family:  'Montserrat', sans-serif;
+}
+#titulo h1 {
+    font-size: 30px;
+}
+
+#titulo{  
+margin-top: -5px;    
+text-align: center;
+color: #183152; 
+margin-bottom: 15px; 
+background: #E1E6FA;
+padding-bottom: 40px;
+padding-top: 30px;
+}
+
+#contenido
+{
+background-color: white;
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+width: 95%;
+margin: auto;
+padding-left: 60px;
+    background: rgba(255,255,255,0.3);
+}
+
+#contenido h1{
+color: #183152;
+border-bottom: 3px solid cadetblue; 
+font-size: 25px;    
+}
+
+.contenedor2{
+margin-right: 10px;
+margin-bottom: 20px;
+margin-left: 20px;
+line-height: 1.5;
+width: 40%;
+min-width: 200px;
+
+
+}
+.contenedor2 h1{
+    margin-bottom: 20px;   
+}
+
+.contenedor2 ul li{
+    margin-left: 20px;
+}
+#contenedor33{
+    margin-top: 0px;
+     background-image: url(../img/servicios_index.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}

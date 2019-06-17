@@ -1,0 +1,19 @@
+.generar-periodo{
+  width: 50%;  
+    height: 200px;
+  border: 1px solid black; 
+    border-radius: 25px;
+    margin: auto;
+    padding: 10px;
+}
+.center{
+    text-align: center;
+}
+.generar-periodo2{
+  width: 50%;  
+    height: 400px;
+  border: 1px solid black; 
+    border-radius: 25px;
+    margin: auto;
+    padding: 10px;
+}
